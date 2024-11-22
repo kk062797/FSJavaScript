@@ -46,6 +46,7 @@ const positiveIntegers = num.filter((value)=>{
 })
 console.log(positiveIntegers);
 */
+/*
 //Reduce
 const num = [23,-64,76,-25,56,78];
 const output = num.reduce((pv,cv,ci,arr)=>{
@@ -53,6 +54,11 @@ const output = num.reduce((pv,cv,ci,arr)=>{
     return pv+=cv;
     
 })
+console.log(output);
+*/
+const Fname = "Akhil Kumar Jain"; //akj
+
+const output = Fname.split(" ").map((val)=>val.toLowerCase().at(0)).join("");
 console.log(output);
 /*
 function f1(a,f2){
