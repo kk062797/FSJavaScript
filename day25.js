@@ -1,6 +1,6 @@
 class Employee{
     //instance Variable
-    //#firstName; // these are now private
+    #nickName; // these are now private
     firstName;
     lastName;
 
@@ -35,9 +35,10 @@ class Employee{
 const emp1 = new Employee("Kanishk","Sahu");
 const emp2 = new Employee
 Employee.middleName = "Kumar";
-console.log(emp1);
-console.log(Employee.middleName);
-console.log(emp2.middleName);
+//console.log(emp1.#nickName)
+//console.log(emp1);
+//console.log(Employee.middleName);
+//console.log(emp2.middleName);
 
 /*
 const kanishk = new Employee("Kanishk","Kumar");
